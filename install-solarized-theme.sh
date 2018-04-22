@@ -10,7 +10,8 @@ sudo apt-get install -y dconf-cli gtk2-engines-murrine \
 curl 'https://i.imgur.com/BaocXcW.png' > ~/wallpaper_solarized.png
 gsettings set org.gnome.desktop.interface gtk-theme "Numix"
 gsettings set org.gnome.desktop.wm.preferences theme "Numix"
-gsettings set org.gnome.desktop.background picture-uri file://~/wallpaper_solarized.png
+gsettings set org.gnome.desktop.interface icon-theme 'Paper'
+gsettings set org.gnome.desktop.background picture-uri "file:///$HOME/wallpaper_solarized.png"
 
 echo -e "\nFinished gnome theme installation.\n"
 
