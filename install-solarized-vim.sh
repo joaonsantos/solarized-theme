@@ -33,7 +33,7 @@ cd ~/Downloads/
 
 git clone https://github.com/vim/vim
 
-cd vim
+cd vim/src
 
 echo -e "\nStarting vim configuration for compilation...\n"
 
