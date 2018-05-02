@@ -51,7 +51,7 @@ make distclean
             --enable-cscope \
             --prefix=/usr/local
 
-make && make install
+make && sudo make install
 
 echo -e "\nFinished vim installation...\n"
 
